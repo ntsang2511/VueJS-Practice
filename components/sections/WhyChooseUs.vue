@@ -3,7 +3,7 @@
     <div class="container pb-14 pb-md-16">
       <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
         <div class="col-lg-7">
-          <figure><img class="img-auto" src="/illustrations/i22.png" srcset="/illustrations/i22@2x.png 2x" alt="" /></figure>
+          <figure><img class="img-auto" src="../../assets/images/illustrations/i22.png" alt="" /></figure>
         </div>
         <div class="col-lg-5">
           <h2 class="fs-15 text-uppercase text-primary mb-3">Why Choose Us?</h2>

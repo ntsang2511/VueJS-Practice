@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <DefaultLayout>
     <Hero />
     <Services />
     <Strategy />
@@ -9,10 +9,11 @@
     <Projects />
     <Testimonials />
     <FAQ />
-  </div>
+  </DefaultLayout>
 </template>
 
 <script setup>
+import DefaultLayout from '../layouts/DefaultLayout.vue'
 import Hero from '../components/sections/Hero.vue';
 import Services from '../components/sections/Services.vue';
 import Strategy from '../components/sections/Strategy.vue';

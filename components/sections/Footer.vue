@@ -11,7 +11,7 @@
       <div class="row gy-6 gy-lg-0">
         <div class="col-md-4 col-lg-3">
           <div class="widget">
-            <img class="mb-4" src="/logo-light.png" srcset="/logo-light@2x.png 2x" alt="" />
+            <img class="mb-4" src="../../assets/images/logo-light.png" alt="" />
             <p class="mb-4">© {{ new Date().getUTCFullYear() }} Digital Agency. All rights reserved.</p>
             <nav class="nav social social-white">
               <a href="#"><Icon name="twitter" /></a>

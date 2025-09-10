@@ -15,9 +15,9 @@ export const useContentStore = defineStore('content', {
     async fetchServices() {
       try {
         this.services = [
-          { id: 1, title: 'Web Design', description: 'Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget. Fusce dapibus tellus.', image: '/illustrations/i24.png' },
-          { id: 2, title: 'Graphic Design', description: 'Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet. Sed posuere consectetur.', image: '/illustrations/i19.png' },
-          { id: 3, title: '3D Animation', description: 'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna scelerisque.', image: '/illustrations/i18.png' },
+          { id: 1, title: 'Web Design', description: 'Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget. Fusce dapibus tellus.', image: '../../assets/images/illustrations/i24.png' },
+          { id: 2, title: 'Graphic Design', description: 'Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet. Sed posuere consectetur.', image: '../../assets/images/illustrations/i19.png' },
+          { id: 3, title: '3D Animation', description: 'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna scelerisque.', image: '../../assets/images/illustrations/i18.png' },
         ];
         // Replace with actual API call: const response = await $fetch('https://api.example.com/services');
       } catch (error) {
